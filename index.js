@@ -3,8 +3,6 @@ const express = require('express');
 const Constants = require('./constants'),
   helper = require('./helper');
 
-  const googleDrive = require('./googleDrive');
-
 // configure
 const app = express();
 const server = require('http').Server(app);
